@@ -3,31 +3,28 @@
 //
 // find multiples of 3 or 5 below a number
 
-#include<cmath>
-#include<string>
-#include<iostream>
+#include <cmath>
+#include <iostream>
+#include <string>
 
 using namespace std;
 
-int main()
-{
+int main() {
 
-int N = 1000;
-int MULT3;
-int MULT5;
-int MULT15;
+  int N = 1000;
+  int MULT3;
+  int MULT5;
+  int MULT15;
 
-MULT3 = 3 + ( 6 + 999 ) * 332 / 2;
+  MULT3 = 3 + (6 + 999) * 332 / 2;
 
-MULT5 = ( 995 + 0 ) * 100;
+  MULT5 = (995 + 0) * 100;
 
-MULT15 = 1005 * 33;
+  MULT15 = 1005 * 33;
 
-cout << endl << "ANSWER: " << MULT3 + MULT5 - MULT15 << endl;
+  cout << endl << "ANSWER: " << MULT3 + MULT5 - MULT15 << endl;
 
-return 0;
+  return 0;
 }
-
-
 
 // correct
